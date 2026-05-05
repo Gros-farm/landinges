@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Цифровые техкарты Gros.farm</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Gros.farm">
+        <span class="brand-mark"></span>
+        <span>Gros.farm</span>
+      </a>
+      <nav class="nav" aria-label="Навигация">
+        <a href="#how">Как работает</a>
+        <a href="#tasks">Задачи</a>
+        <a href="#analytics">Аналитика</a>
+        <a href="#automation">Автоматика</a>
+      </nav>
+      <a class="header-cta" href="#demo">Запросить демо</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <h1>Цифровые техкарты для управляемого выращивания</h1>
+          <p>
+            Gros.farm собирает технологию выращивания в одну рабочую систему:
+            этапы, нормы, задачи, рецепты, световой день, данные и связь с
+            автоматикой.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#demo">Запросить демо</a>
+            <a class="button button-secondary" href="#video-overview">Смотреть техкарту</a>
+          </div>
+        </div>
+
+        <div class="hero-media" aria-label="Интерфейс техкарты">
+          <div class="product-window">
+            <div class="window-bar">
+              <span></span><span></span><span></span>
+              <strong>Земляника НСД · Теплица</strong>
+            </div>
+            <div class="product-grid">
+              <aside class="stage-list">
+                <span>Высадка</span>
+                <span class="active">Укоренение</span>
+                <span>Рост</span>
+                <span>Цветение</span>
+                <span>Сбор</span>
+              </aside>
+              <div class="dashboard">
+                <div class="tabs">
+                  <span class="selected">Показатели</span>
+                  <span>Задачи</span>
+                  <span>Рецепты</span>
+                  <span>Световой день</span>
+                </div>
+                <div class="metric-card wide">
+                  <small>Температура воздуха днем</small>
+                  <strong>22.5 °C</strong>
+                  <div class="range"><i style="width: 68%"></i></div>
+                </div>
+                <div class="metric-pair">
+                  <div class="metric-card">
+                    <small>Влажность</small>
+                    <strong>72%</strong>
+                  </div>
+                  <div class="metric-card">
+                    <small>VPD</small>
+                    <strong>0.84 kPa</strong>
+                  </div>
+                </div>
+                <div class="task-strip">
+                  <span></span>
+                  <p>Контроль укоренения · сегодня · агроном</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="benefits" aria-label="Основные преимущества">
+        <article>
+          <span class="icon-dot"></span>
+          <h3>Технология не теряется</h3>
+          <p>Этапы, нормы и инструкции остаются внутри хозяйства, а не только в голове агронома.</p>
+        </article>
+        <article>
+          <span class="icon-dot"></span>
+          <h3>Команда работает по процессу</h3>
+          <p>Задачи формируются из техкарты и сохраняют связь с культурой, этапом и исполнителем.</p>
+        </article>
+        <article>
+          <span class="icon-dot"></span>
+          <h3>Факт сравнивается с нормой</h3>
+          <p>Показатели видны относительно целевых коридоров текущего этапа выращивания.</p>
+        </article>
+        <article>
+          <span class="icon-dot"></span>
+          <h3>Автоматика получает контекст</h3>
+          <p>Gros.farm работает поверх локальных систем и передает уставки с учетом этапа.</p>
+        </article>
+      </section>
+
+      <section class="intro-row" id="video-overview">
+        <div class="intro-text">
+          <p class="eyebrow">Техкарта как основа производства</p>
+          <h2>Не справочник и не todo-list, а цифровая логика выращивания</h2>
+          <p>
+            В Gros.farm техкарта описывает, как культура проходит цикл: от
+            высадки и укоренения до цветения, плодоношения и нового оборота.
+            Для каждого этапа задаются свои цели, нормы, задачи, рецепты и
+            световой день.
+          </p>
+        </div>
+        <button class="video-panel" type="button" aria-label="Видео: обзор техкарты">
+          <span class="play"></span>
+          <strong>Видео 01 · обзор техкарты</strong>
+        </button>
+      </section>
+
+      <section class="architecture" id="how">
+        <div class="architecture-copy">
+          <h2>Как работает техкарта</h2>
+          <p>
+            Техкарта задает контекст для всего производственного процесса:
+            какие нормы действуют сейчас, какие работы нужны команде и какие
+            параметры могут использоваться в аналитике и автоматике.
+          </p>
+        </div>
+        <div class="architecture-flow" aria-label="Структура техкарты">
+          <div>
+            <b>01</b>
+            <span>Этап выращивания</span>
+            <p>Укоренение, рост, цветение или сбор.</p>
+          </div>
+          <div>
+            <b>02</b>
+            <span>Нормы и задачи</span>
+            <p>Целевые коридоры, работы, рецепты и световой день.</p>
+          </div>
+          <div>
+            <b>03</b>
+            <span>Данные и уставки</span>
+            <p>План-факт, аналитика и контекст для локальной автоматики.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-pair">
+        <div class="screen-card">
+          <div class="mini-chart">
+            <div class="chart-head">
+              <strong>Температура воздуха</strong>
+              <span>норма 21-24 °C</span>
+            </div>
+            <div class="chart">
+              <span class="corridor"></span>
+              <svg viewBox="0 0 420 160" role="img" aria-label="График показателя">
+                <path d="M0,100 C50,92 72,72 118,78 C165,86 178,128 224,116 C268,104 286,48 330,54 C370,58 392,76 420,66" />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="pair-copy">
+          <p class="eyebrow">Нормы</p>
+          <h2>Нормы меняются вместе с этапом</h2>
+          <p>
+            Температура, влажность, VPD, DPD, субстрат, освещенность и
+            фотопериод не могут быть одинаковыми на всем цикле.
+          </p>
+          <p>
+            Gros.farm сравнивает фактические данные с коридорами текущего
+            этапа, чтобы отклонения были видны в процессе, а не после цикла.
+          </p>
+        </div>
+      </section>
+
+      <section class="content-pair reverse" id="tasks">
+        <div class="pair-copy">
+          <p class="eyebrow">Команда</p>
+          <h2>Технология сразу доходит до команды</h2>
+          <p>
+            Из техкарты можно формировать задачи для сотрудников: с датами,
+            исполнителями, этапами, инструкциями и фото.
+          </p>
+          <p>
+            Сотрудник получает понятный список работ. Администратор видит
+            выполнение, просрочки и ответственных.
+          </p>
+        </div>
+        <div class="screen-card task-screen">
+          <div class="task-row done"><span></span><p>Проверить укоренение</p><b>Сделано</b></div>
+          <div class="task-row"><span></span><p>Замерить влажность субстрата</p><b>Сегодня</b></div>
+          <div class="task-row urgent"><span></span><p>Осмотр референсных растений</p><b>Важно</b></div>
+        </div>
+      </section>
+
+      <section class="video-wide">
+        <div>
+          <p class="eyebrow">Видео 02</p>
+          <h2>Этапы и настройки техкарты</h2>
+          <p>Покажите экран техкарты: этапы, описание, показатели и редактирование параметров.</p>
+        </div>
+        <button class="video-panel" type="button" aria-label="Видео: этапы и настройки техкарты">
+          <span class="play"></span>
+          <strong>Вставить видео интерфейса</strong>
+        </button>
+      </section>
+
+      <section class="content-pair" id="analytics">
+        <div class="screen-card analytics-screen">
+          <div class="analytics-line"></div>
+          <div class="analytics-line short"></div>
+          <div class="analytics-grid">
+            <span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+        <div class="pair-copy">
+          <p class="eyebrow">Аналитика</p>
+          <h2>Видно, где процесс ушел от технологии</h2>
+          <p>
+            Аналитика показывает фактические показатели рядом с нормами из
+            техкарты: не просто график, а план-факт по текущему этапу.
+          </p>
+          <p>
+            Так проще понять, где условия были в коридоре, где появились
+            отклонения и как это связано со сменой этапа или работой оборудования.
+          </p>
+        </div>
+      </section>
+
+      <section class="content-pair reverse" id="automation">
+        <div class="pair-copy">
+          <p class="eyebrow">Автоматика</p>
+          <h2>Gros.farm не заменяет автоматику. Он дает ей контекст</h2>
+          <p>
+            Локальные контроллеры и SCADA отвечают за надежное исполнение.
+            Gros.farm работает выше: хранит технологию, анализирует данные и
+            передает уставки с учетом этапа выращивания.
+          </p>
+        </div>
+        <div class="screen-card automation-screen">
+          <span>Техкарта</span>
+          <i></i>
+          <span>Уставка</span>
+          <i></i>
+          <span>Локальная автоматика</span>
+        </div>
+      </section>
+
+      <section class="quote-section">
+        <h2>Техкарта становится знанием хозяйства</h2>
+        <p>
+          Шаблон можно адаптировать под объект, сорт, оборудование, сезон и
+          команду. Со временем это уже не документ, а актив организации: его
+          можно использовать для новых партий, объектов и сотрудников.
+        </p>
+      </section>
+
+      <section class="final-cta" id="demo">
+        <h2>Соберите технологию выращивания в единую систему</h2>
+        <p>
+          Покажем, как Gros.farm связывает техкарты, данные, задачи, аналитику
+          и локальную автоматику в управляемый производственный процесс.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="mailto:demo@gros.farm">Запросить демо</a>
+          <a class="button button-secondary" href="#video-overview">Посмотреть видео</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
