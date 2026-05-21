@@ -152,9 +152,33 @@ h1 {
   gap: 20px;
 }
 
-.hero-image {
+.hero-media {
+  background: url("./assets/hero-video-bg.png") center / cover no-repeat;
+  border-radius: 20px;
   height: 662px;
-  object-fit: cover;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.hero-video {
+  aspect-ratio: 100 / 53.5;
+  border-radius: 20px;
+  box-shadow: -7px -1px 31px rgba(168, 174, 184, 0.19);
+  left: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 75px;
+  transform: translateX(-50%);
+  width: 89.22%;
+}
+
+.hero-video iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
   width: 100%;
 }
 
@@ -532,8 +556,18 @@ ul {
     font-size: 34px;
   }
 
-  .hero-image {
+  .hero-media {
     height: auto;
+    min-height: 0;
+    padding: 24px 16px;
+    width: 100%;
+  }
+
+  .hero-video {
+    left: auto;
+    position: relative;
+    top: auto;
+    transform: none;
     width: 100%;
   }
 
