@@ -163,6 +163,7 @@ h1 {
 
 .hero-video {
   aspect-ratio: 100 / 53.5;
+  background: #d9d9d9;
   border-radius: 20px;
   box-shadow: -7px -1px 31px rgba(168, 174, 184, 0.19);
   left: 50%;
@@ -337,9 +338,9 @@ ul {
 .process {
   background: #f1f1f1;
   border-radius: 20px;
-  height: 395px;
+  height: 360px;
   overflow: hidden;
-  padding: 64px 80px 56px;
+  padding: 52px 80px 42px;
   position: relative;
 }
 
@@ -357,7 +358,7 @@ ul {
   left: 100px;
   position: absolute;
   right: 100px;
-  top: 188px;
+  top: 150px;
 }
 
 .process-dot {
@@ -397,14 +398,14 @@ ul {
 .process-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  left: 108px;
+  left: 100px;
   position: absolute;
-  right: 108px;
-  top: 287px;
+  right: 100px;
+  top: 234px;
 }
 
 .process-grid div {
-  width: 315px;
+  width: 260px;
 }
 
 .process-grid div:nth-child(2) {
@@ -416,6 +417,7 @@ ul {
 .process-grid div:nth-child(3) {
   justify-self: end;
   text-align: right;
+  width: 315px;
 }
 
 .feature-list {
@@ -557,13 +559,15 @@ ul {
   }
 
   .hero-media {
+    border-radius: 16px;
     height: auto;
     min-height: 0;
-    padding: 24px 16px;
+    padding: 0;
     width: 100%;
   }
 
   .hero-video {
+    border-radius: 16px;
     left: auto;
     position: relative;
     top: auto;
@@ -607,7 +611,7 @@ ul {
 
   .process {
     height: auto;
-    padding: 40px 24px;
+    padding: 40px 24px 44px;
   }
 
   .process-track {
